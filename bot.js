@@ -1,6 +1,7 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 const client2 = new Discord.Client();
+const client3 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
