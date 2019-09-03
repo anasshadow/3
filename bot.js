@@ -5,12 +5,12 @@ const client3 = new Discord.Client();
 console.log("Scrpit By Shadow");
 const myid = ['524218118462242816'];
 const prefix = ['!'];
-
+const mess = ['حزن'];
 
 client.on("ready", () => {
 let channel =     client.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`حزنk`);
+channel.send( mess );
 }, 3)
 });
 
@@ -48,7 +48,7 @@ client.on('message', message => {
 client2.on("ready", () => {
 let channel =     client2.channels.get("618079138376450198")
 setInterval(function() {
-channel.send(`حزن l`);
+channel.send( mess );
 }, 3)
 });
 
@@ -86,7 +86,7 @@ client2.on('message', message => {
 client3.on("ready", () => {
     let channel =     client3.channels.get("618079138376450198")
     setInterval(function() {
-    channel.send(`حزننk`);
+    channel.send( mess );
     }, 3)
     });
     
